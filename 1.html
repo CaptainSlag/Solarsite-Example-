@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>SolarSite</title>
+<link rel="shortcut icon" type="image/png" href="sun1.png"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+.mySlides {display:none;}
+html {
+	background-color:yellow;
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-phone {
+  color: grey;
+}
+        .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+        .fa-instagram {
+  background: #125688;
+  color: white;
+}
+    footer {
+            position:fixed;
+            max-height:inherit;
+            bottom: 0;
+            width: 100%;
+            background-color: transparent;
+        }
+</style>
+<body>
+
+	<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-orange w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-orange" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#info" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Information</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#info" class="w3-bar-item w3-button w3-padding-large">Information</a>
+	<a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
+  </div>
+</div>
+<!-- Header -->
+<div class="w3-container" style="padding:60px 10px">
+<img class="mySlides" src="1.jpg" alt="panels1" style="width:100%;height:300px;">
+<img class="mySlides" src="2.jpg" alt="panels2" style="width:100%;height:300px;">
+<img class="mySlides" src="3.jpg" alt="panels3" style="width:100%; height:300px;">
+  </div>
+<script type="text/javascript" src="carousel.js"></script>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+<div class="w3-third w3-center">
+      <img src="sun1.png" alt="sun" style="height:200px;width:200px;border-radius:50%;">
+    </div>
+	<!-- Welcome -->
+    <div class="w3-twothird w3-padding-32">
+      <h1>Welcome To Solarsite</h1>
+      <h5 class="w3-padding-32" id="info">Founded in Year, Solarsite was the first to engineer affordable home standby generators, along with the first engine developed specifically for the rigors of generator use, and is now the #1 manufacturer of home backup generators. Generac manufactures the widest range of power products in the marketplace including portable, residential, commercial and industrial generators. We are also the leading designer and manufacturer of manual and fully automatic transfer switches and accessories for backup power applications up to 2 MW.
+
+Our Generac Mobile line of powerful, high-quality light towers, trailer-mounted mobile generators and combination units are designed and built for a variety of industries and the most demanding environments.
+
+Solarsite also pioneered the residential power washer category, putting the power to clean into the hands of homeowners. Today, Generac features a full line of innovative, industry-leading power washers suitable for virtually any application, including the toughest commercial and industrial environments.
+
+At Generac, we protect the things that power your life by providing quality, affordable power solutions.</h5>
+
+    </div>
+
+    
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+   
+    <div class="w3-twothird" id="about">
+      <h1>About Us</h1>
+      <h5 class="w3-padding-32">If you’re not familiar with solar panels and solar power, our team excels at explaining solar technology in a way that anyone can understand. The good news is that the systems we install are incredibly simple and easy to use. You don’t need to switch them on in the morning or off at night. The system handles this process seamlessly and automatically.
+
+You also don’t need to worry about switching between solar power and traditional power (“the grid”), as your solar system will determine when to make the switch based on your energy consumption. In fact, a Solarsite a solar system is very low maintenance and built to last for decades.</h5>
+
+    </div>
+<div class="w3-third w3-center">
+      <img src="sun1.png" alt="icon" style="height:200px;width:200px;border-radius:50%;">
+    </div>
+<p class="w3-text-grey">Fran Bedner  recommends Solar Site, Inc.
+April 12 - "Very Friendly!" 
+</p>
+<p class="w3-text-grey">Paula Sue Daiell  recommends Solar Site, Inc.
+October 21, 2020 - "the staff is very very nice and the Service's are totally amazing they are always nice but more importantly they are all organized . I Love it"
+  </div>
+</div>
+
+<div class="w3-container w3-orange w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: Powering Homes</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-16">
+<div class="w3-container w3-quarter w3-animate-left" style="padding: 10px;">
+      <a href="tel:+13214309240"><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></a></i>
+</div>
+<div class="w3-container w3-quarter w3-animate-left" style="padding: 10px;">
+<a href="mailto:william.jones2094@gmail.com"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></a></i>
+</div>
+<div class="w3-container w3-quarter w3-animate-left" style="padding: 10px;">
+          <a href="https://www.facebook.com/profile.php?id=100014382735014" class="fa fa-facebook"></a></div>
+        <div class="w3-container w3-quarter w3-animate-right" style="padding: 10px;">
+            <a href="https://www.twitter.com/" class="fa fa-twitter"></a></div>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
